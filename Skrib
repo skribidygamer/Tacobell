@@ -1,6 +1,6 @@
 -- Instances:
 
-print("a")
+print("Tacobell Hub skribidy sigma")
 local Player = game.Players.LocalPlayer
 
 local TacobellHub = Instance.new("ScreenGui")
@@ -250,6 +250,7 @@ Min.MouseButton1Click:Connect(function()
 		AutoShiny.Visible = false
 		AutoRewards.Visible = false
 		AutoLootbox.Visible = false
+		AutoSell.Visible = false
 		
 		Minimized = true
 	else
@@ -260,6 +261,7 @@ Min.MouseButton1Click:Connect(function()
 		AutoShiny.Visible = true
 		AutoRewards.Visible = true
 		AutoLootbox.Visible = true
+		AutoSell.Visible = true
 		Minimized = false
 	end
 end)
@@ -397,3 +399,5 @@ task.spawn(function()
 		end
 	end
 end)
+
+workspace:GetDescendants()
