@@ -1,5 +1,6 @@
 -- Instances:
 
+print("a")
 local Player = game.Players.LocalPlayer
 
 local TacobellHub = Instance.new("ScreenGui")
